@@ -1,0 +1,69 @@
+body {
+	width: 1604px;
+	margin: 0 auto;
+}
+
+/*elements*/
+.elements-to-the-left { 
+	position: relative;
+	float: left;
+	height: 650px;
+	width: 1200px;
+	border: 1px black solid;
+	background: grey;
+}
+.logotip {
+	position: absolute;
+	left: 33px;
+	top: 33px;
+	height: 40px;
+	width: 180px;
+	border: 1px black solid;
+}
+.logon {
+	position: absolute;
+	top: 33px;
+	right: 130px;
+	height: 40px;
+	width: 80px;
+	border: 1px black solid;
+}
+.search {
+	position: absolute;
+	float: right;
+	top: 33px;
+	right: 80px;
+	height: 40px;
+	width: 40px;
+	border: 1px black solid;
+}
+.basket {
+	position: absolute;
+	float: right;
+	right: 30px;
+	top: 33px;
+	height: 40px;
+	width: 40px;
+	border: 1px black solid;
+}
+ /*left container*/
+.the-banner-on-the-right {
+	float: right;
+	height: 650px;
+	width: 400px;
+	border: 1px black solid;
+	background: #334861;
+}
+.nav {
+	margin: 40px 20px 40px 20px;
+	border: 1px black solid;
+	text-align: center;
+}
+.nav > a {
+	display: inline-block;
+	margin: 60px 20px 60px 20px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
